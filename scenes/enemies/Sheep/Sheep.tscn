@@ -201,8 +201,9 @@ script = ExtResource("1_6p7b5")
 scale = Vector2(0.1, 0.1)
 texture = ExtResource("2_57cp7")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionBox" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_orhwg")
+disabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

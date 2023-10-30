@@ -1,29 +1,30 @@
-[gd_scene load_steps=29 format=3 uid="uid://drmaubupv57n1"]
+[gd_scene load_steps=30 format=3 uid="uid://d0lebkju165th"]
 
-[ext_resource type="Script" path="res://scenes/enemies/MoldedDruvar/MoldedDruvar.gd" id="1_ba1y1"]
-[ext_resource type="Texture2D" uid="uid://dqwsc70v1poc8" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_backhand.png" id="1_fnuxl"]
-[ext_resource type="Texture2D" uid="uid://bklq7s00gbtuh" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_backleg.png" id="2_xe2qq"]
-[ext_resource type="Texture2D" uid="uid://duhp2c25iba6a" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_topleg.png" id="3_x4duj"]
-[ext_resource type="Texture2D" uid="uid://dexspslu6tit4" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_trunk.png" id="4_uuhj7"]
-[ext_resource type="Texture2D" uid="uid://dfgac1m50tnbp" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_Head.png" id="5_af0rv"]
-[ext_resource type="Texture2D" uid="uid://dgaxltrsj2mbj" path="res://assets/images/enemies/moldeddruvar/moldeddruvar_tophand.png" id="6_ajo5s"]
-[ext_resource type="PackedScene" uid="uid://8t6nwakq6im5" path="res://scenes/templates/JInterface/JInterface.tscn" id="8_olobp"]
-[ext_resource type="PackedScene" uid="uid://dv6a22n6h5bly" path="res://scenes/enemies/common/avoidance_rays/AvoidanceRays.tscn" id="9_whu8q"]
-[ext_resource type="Script" path="res://addons/beehave/nodes/beehave_tree.gd" id="10_xhds1"]
-[ext_resource type="Script" path="res://addons/beehave/nodes/composites/selector_reactive.gd" id="11_hywmq"]
-[ext_resource type="PackedScene" uid="uid://dbllgq1k86dyd" path="res://scenes/enemies/common/ai/sequences/death_sequence/DeathSequence.tscn" id="12_8aom2"]
-[ext_resource type="Script" path="res://addons/beehave/nodes/composites/sequence.gd" id="13_a7ko2"]
-[ext_resource type="PackedScene" uid="uid://b4h6plpm1hoii" path="res://scenes/enemies/common/ai/conditionals/is_in_combat/IsInCombat.tscn" id="14_0ay2y"]
-[ext_resource type="PackedScene" uid="uid://c4ss75lmmvkoi" path="res://scenes/enemies/common/ai/sequences/attack_sequence/AttackSequence.tscn" id="15_xroah"]
-[ext_resource type="PackedScene" uid="uid://c32syir0x72av" path="res://scenes/enemies/common/ai/sequences/pursuit_sequence/PursuitSequence.tscn" id="16_ro5io"]
-[ext_resource type="PackedScene" uid="uid://ditk3sn70usrs" path="res://scenes/enemies/common/ai/sequences/leash_sequence/LeashSequence.tscn" id="17_k4dru"]
-[ext_resource type="PackedScene" uid="uid://dk8p2emk8wofb" path="res://scenes/enemies/common/ai/sequences/wander_sequence/WanderSequence.tscn" id="18_3opgl"]
-[ext_resource type="PackedScene" uid="uid://bho6r0fx8owhk" path="res://scenes/enemies/common/ai/sequences/idle_sequence/IdleSequence.tscn" id="19_p33m3"]
-[ext_resource type="Script" path="res://addons/beehave/blackboard.gd" id="20_vnsr5"]
+[ext_resource type="Script" path="res://scenes/enemies/MoldedDruvar/MoldedDruvar.gd" id="1_vpa23"]
+[ext_resource type="Texture2D" uid="uid://26iua37kqtxc" path="res://assets/images/enemies/mushroomdog/BackForeLeg.PNG" id="2_g5bmr"]
+[ext_resource type="Texture2D" uid="uid://crcsimr0m2t0q" path="res://assets/images/enemies/mushroomdog/BackHindLeg.PNG" id="3_laipr"]
+[ext_resource type="Texture2D" uid="uid://sqhr2wscv3w7" path="res://assets/images/enemies/mushroomdog/IMG_7289.PNG" id="4_7ew22"]
+[ext_resource type="Texture2D" uid="uid://dlcgimwlrfnt4" path="res://assets/images/enemies/mushroomdog/LowerJaw.PNG" id="5_jc6nt"]
+[ext_resource type="Texture2D" uid="uid://bq8mkulc7hfuj" path="res://assets/images/enemies/mushroomdog/UpperJaw.PNG" id="6_babro"]
+[ext_resource type="Texture2D" uid="uid://fv6jp0s07n7c" path="res://assets/images/enemies/mushroomdog/FrontForeLeg.PNG" id="7_nbovi"]
+[ext_resource type="Texture2D" uid="uid://dh0gj7a1vpu72" path="res://assets/images/enemies/mushroomdog/FrontHindLeg.PNG" id="8_nadqh"]
+[ext_resource type="PackedScene" uid="uid://8t6nwakq6im5" path="res://scenes/templates/JInterface/JInterface.tscn" id="9_agql4"]
+[ext_resource type="PackedScene" uid="uid://dv6a22n6h5bly" path="res://scenes/enemies/common/avoidance_rays/AvoidanceRays.tscn" id="10_3uckw"]
+[ext_resource type="Script" path="res://addons/beehave/nodes/beehave_tree.gd" id="11_m0m23"]
+[ext_resource type="Script" path="res://addons/beehave/nodes/composites/selector_reactive.gd" id="12_blykv"]
+[ext_resource type="PackedScene" uid="uid://dbllgq1k86dyd" path="res://scenes/enemies/common/ai/sequences/death_sequence/DeathSequence.tscn" id="13_ql8is"]
+[ext_resource type="Script" path="res://addons/beehave/nodes/composites/sequence.gd" id="14_ag1k6"]
+[ext_resource type="PackedScene" uid="uid://b4h6plpm1hoii" path="res://scenes/enemies/common/ai/conditionals/is_in_combat/IsInCombat.tscn" id="15_0n7cl"]
+[ext_resource type="PackedScene" uid="uid://c4ss75lmmvkoi" path="res://scenes/enemies/common/ai/sequences/attack_sequence/AttackSequence.tscn" id="16_vd3dx"]
+[ext_resource type="PackedScene" uid="uid://c32syir0x72av" path="res://scenes/enemies/common/ai/sequences/pursuit_sequence/PursuitSequence.tscn" id="17_55eso"]
+[ext_resource type="PackedScene" uid="uid://ditk3sn70usrs" path="res://scenes/enemies/common/ai/sequences/leash_sequence/LeashSequence.tscn" id="18_onkui"]
+[ext_resource type="PackedScene" uid="uid://dk8p2emk8wofb" path="res://scenes/enemies/common/ai/sequences/wander_sequence/WanderSequence.tscn" id="19_i1qwg"]
+[ext_resource type="PackedScene" uid="uid://bho6r0fx8owhk" path="res://scenes/enemies/common/ai/sequences/idle_sequence/IdleSequence.tscn" id="20_bwiny"]
+[ext_resource type="Script" path="res://addons/beehave/blackboard.gd" id="21_s1s6f"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n3uon"]
-radius = 17.0
-height = 108.0
+radius = 26.0
+height = 78.0
 
 [sub_resource type="Animation" id="Animation_6om0n"]
 resource_name = "Die"
@@ -38,7 +39,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 530)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 200)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -50,96 +51,96 @@ tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, 0.530526, 1.489]
+"values": [0.0, 0.0, 0.0]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:position")
+tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(-79.6999, 81.5348), Vector2(-28.5903, -263.216)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:rotation")
+tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, -0.664504, -2.75168]
+"values": [0.0, 0.0, 1.5708]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:position")
+tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(-56.2355, -36.5729), Vector2(37.5776, 153.584)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:rotation")
+tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, -0.854568, 2.40528]
+"values": [0.0, 0.0, 1.309]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:position")
+tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(150.198, -99.7031), Vector2(-660.082, 96.3921)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:rotation")
+tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, 0.579301, -1.17773]
+"values": [0.0, 0.0, 0.0]
 }
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteHead:position")
+tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(-204.939, 85.4409), Vector2(273.182, -27.7733)]
+"values": [Vector2(0, 0), Vector2(0, 85.441), Vector2(-100, -27.773)]
 }
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteHead:rotation")
+tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:rotation")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
@@ -151,26 +152,50 @@ tracks/9/keys = {
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:position")
+tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(67.8495, 76.1344), Vector2(-110.449, 0.979248)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 500)]
 }
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:rotation")
+tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:rotation")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(2, 3, 2),
+"update": 0,
+"values": [0.0, 0.0, -1.0472]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Skeleton/RemoteBody/RemoteLowerJaw:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, 0.738252, 0.693904]
+"values": [Vector2(0, 0), Vector2(50, -20), Vector2(0, 50)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Skeleton/RemoteBody/RemoteLowerJaw:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.6),
+"transitions": PackedFloat32Array(2, 3, 4),
+"update": 0,
+"values": [0.0, -0.349066, -0.872665]
 }
 
 [sub_resource type="Animation" id="Animation_7v558"]
@@ -202,7 +227,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:position")
+tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -214,7 +239,7 @@ tracks/2/keys = {
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:rotation")
+tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
@@ -226,7 +251,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:position")
+tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -238,7 +263,7 @@ tracks/4/keys = {
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:rotation")
+tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
@@ -250,7 +275,7 @@ tracks/5/keys = {
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteHead:position")
+tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
@@ -262,7 +287,7 @@ tracks/6/keys = {
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteHead:rotation")
+tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
@@ -274,7 +299,7 @@ tracks/7/keys = {
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:position")
+tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
@@ -286,7 +311,7 @@ tracks/8/keys = {
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:rotation")
+tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:rotation")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
@@ -298,7 +323,7 @@ tracks/9/keys = {
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:position")
+tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
@@ -310,7 +335,7 @@ tracks/10/keys = {
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:rotation")
+tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:rotation")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
@@ -350,7 +375,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:position")
+tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -362,7 +387,7 @@ tracks/2/keys = {
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:rotation")
+tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
@@ -374,7 +399,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:position")
+tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -386,7 +411,7 @@ tracks/4/keys = {
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:rotation")
+tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
@@ -398,7 +423,7 @@ tracks/5/keys = {
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteHead:position")
+tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
@@ -410,7 +435,7 @@ tracks/6/keys = {
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteHead:rotation")
+tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
@@ -422,7 +447,7 @@ tracks/7/keys = {
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:position")
+tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
@@ -434,7 +459,7 @@ tracks/8/keys = {
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:rotation")
+tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:rotation")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
@@ -446,7 +471,7 @@ tracks/9/keys = {
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:position")
+tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
@@ -458,7 +483,7 @@ tracks/10/keys = {
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:rotation")
+tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:rotation")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
@@ -499,7 +524,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:position")
+tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -511,7 +536,7 @@ tracks/2/keys = {
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:rotation")
+tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
@@ -523,7 +548,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:position")
+tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -535,7 +560,7 @@ tracks/4/keys = {
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:rotation")
+tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
@@ -547,7 +572,7 @@ tracks/5/keys = {
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteHead:position")
+tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
@@ -559,7 +584,7 @@ tracks/6/keys = {
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteHead:rotation")
+tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
@@ -571,7 +596,7 @@ tracks/7/keys = {
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:position")
+tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
@@ -583,7 +608,7 @@ tracks/8/keys = {
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:rotation")
+tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:rotation")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
@@ -595,7 +620,7 @@ tracks/9/keys = {
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:position")
+tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
@@ -607,7 +632,7 @@ tracks/10/keys = {
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:rotation")
+tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:rotation")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
@@ -646,7 +671,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:position")
+tracks/2/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
@@ -658,7 +683,7 @@ tracks/2/keys = {
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteBackLeg:rotation")
+tracks/3/path = NodePath("Skeleton/RemoteBody/RemoteFrontForeLeg:rotation")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
@@ -670,7 +695,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:position")
+tracks/4/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
@@ -682,7 +707,7 @@ tracks/4/keys = {
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteTopLeg:rotation")
+tracks/5/path = NodePath("Skeleton/RemoteBody/RemoteBackHindLeg:rotation")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
@@ -694,7 +719,7 @@ tracks/5/keys = {
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteHead:position")
+tracks/6/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
@@ -706,7 +731,7 @@ tracks/6/keys = {
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteHead:rotation")
+tracks/7/path = NodePath("Skeleton/RemoteBody/RemoteUpperJaw:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
@@ -718,7 +743,7 @@ tracks/7/keys = {
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:position")
+tracks/8/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
@@ -730,7 +755,7 @@ tracks/8/keys = {
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteTopHand:rotation")
+tracks/9/path = NodePath("Skeleton/RemoteBody/RemoteFrontHindLeg:rotation")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
@@ -742,7 +767,7 @@ tracks/9/keys = {
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:position")
+tracks/10/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
@@ -754,7 +779,7 @@ tracks/10/keys = {
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackHand:rotation")
+tracks/11/path = NodePath("Skeleton/RemoteBody/RemoteBackForeLeg:rotation")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
@@ -776,39 +801,60 @@ _data = {
 [sub_resource type="CircleShape2D" id="CircleShape2D_dqm6v"]
 radius = 200.0
 
-[node name="MoldedDruvar" type="CharacterBody2D"]
+[node name="MushroomDog" type="CharacterBody2D"]
 motion_mode = 1
 wall_min_slide_angle = 0.0
-script = ExtResource("1_ba1y1")
+script = ExtResource("1_vpa23")
 should_respawn = true
 respawn_time = 20.0
 
 [node name="Sprites" type="Node2D" parent="."]
 scale = Vector2(0.06, 0.06)
 
-[node name="BackHand" type="Sprite2D" parent="Sprites"]
+[node name="BackForeLeg" type="Sprite2D" parent="Sprites"]
+visible = false
+position = Vector2(0, 200)
+rotation = 1.5708
 scale = Vector2(1, 1)
-texture = ExtResource("1_fnuxl")
+texture = ExtResource("2_g5bmr")
 
-[node name="BackLeg" type="Sprite2D" parent="Sprites"]
+[node name="BackHindLeg" type="Sprite2D" parent="Sprites"]
+visible = false
+position = Vector2(0, 200)
 scale = Vector2(1, 1)
-texture = ExtResource("2_xe2qq")
-
-[node name="TopLeg" type="Sprite2D" parent="Sprites"]
-scale = Vector2(1, 1)
-texture = ExtResource("3_x4duj")
+texture = ExtResource("3_laipr")
 
 [node name="Body" type="Sprite2D" parent="Sprites"]
+position = Vector2(0, 200)
 scale = Vector2(1, 1)
-texture = ExtResource("4_uuhj7")
+texture = ExtResource("4_7ew22")
 
-[node name="Head" type="Sprite2D" parent="Sprites"]
+[node name="LowerJaw" type="Sprite2D" parent="Sprites"]
+visible = false
+position = Vector2(0, 250)
+rotation = -0.872665
 scale = Vector2(1, 1)
-texture = ExtResource("5_af0rv")
+texture = ExtResource("5_jc6nt")
 
-[node name="TopHand" type="Sprite2D" parent="Sprites"]
+[node name="UpperJaw" type="Sprite2D" parent="Sprites"]
+visible = false
+position = Vector2(-100, 172.227)
+rotation = -1.37706
 scale = Vector2(1, 1)
-texture = ExtResource("6_ajo5s")
+texture = ExtResource("6_babro")
+
+[node name="FrontForeLeg" type="Sprite2D" parent="Sprites"]
+visible = false
+position = Vector2(0, 200)
+rotation = 1.309
+scale = Vector2(1, 1)
+texture = ExtResource("7_nbovi")
+
+[node name="FrontHindLeg" type="Sprite2D" parent="Sprites"]
+position = Vector2(0, 700)
+rotation = -1.0472
+scale = Vector2(1, 1)
+texture = ExtResource("8_nadqh")
 
 [node name="Skeleton" type="Node2D" parent="."]
 scale = Vector2(0.06, 0.06)
@@ -816,23 +862,32 @@ scale = Vector2(0.06, 0.06)
 [node name="RemoteBody" type="RemoteTransform2D" parent="Skeleton"]
 remote_path = NodePath("../../Sprites/Body")
 
-[node name="RemoteBackHand" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-remote_path = NodePath("../../../Sprites/BackHand")
+[node name="RemoteBackForeLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+remote_path = NodePath("../../../Sprites/BackForeLeg")
 
-[node name="RemoteBackLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-remote_path = NodePath("../../../Sprites/BackLeg")
+[node name="RemoteBackHindLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+scale = Vector2(1, 1)
+remote_path = NodePath("../../../Sprites/BackHindLeg")
 
-[node name="RemoteTopLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-remote_path = NodePath("../../../Sprites/TopLeg")
+[node name="RemoteLowerJaw" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+position = Vector2(0, 50)
+rotation = -0.872665
+scale = Vector2(1, 1)
+remote_path = NodePath("../../../Sprites/LowerJaw")
 
-[node name="RemoteHead" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-remote_path = NodePath("../../../Sprites/Head")
+[node name="RemoteUpperJaw" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+remote_path = NodePath("../../../Sprites/UpperJaw")
 
-[node name="RemoteTopHand" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-remote_path = NodePath("../../../Sprites/TopHand")
+[node name="RemoteFrontForeLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+scale = Vector2(1, 1)
+remote_path = NodePath("../../../Sprites/FrontForeLeg")
+
+[node name="RemoteFrontHindLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
+remote_path = NodePath("../../../Sprites/FrontHindLeg")
 
 [node name="Hurtbox" type="CollisionShape2D" parent="."]
 visible = false
+rotation = 1.5708
 shape = SubResource("CapsuleShape2D_n3uon")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -840,11 +895,12 @@ libraries = {
 "": SubResource("AnimationLibrary_sumus")
 }
 
-[node name="JInterface" parent="." instance=ExtResource("8_olobp")]
+[node name="JInterface" parent="." instance=ExtResource("9_agql4")]
+visible = false
 offset_top = -36.0
 offset_bottom = 4.0
 
-[node name="AvoidanceRays" parent="." instance=ExtResource("9_whu8q")]
+[node name="AvoidanceRays" parent="." instance=ExtResource("10_3uckw")]
 visible = false
 
 [node name="StuckTimer" type="Timer" parent="."]
@@ -864,38 +920,38 @@ position = Vector2(0, 44)
 shape = SubResource("CircleShape2D_dqm6v")
 
 [node name="BeehaveTree" type="Node" parent="."]
-script = ExtResource("10_xhds1")
+script = ExtResource("11_m0m23")
 enabled = false
 actor_node_path = NodePath("..")
 
 [node name="WhatAmIDoingWithMyLife" type="Node" parent="BeehaveTree"]
-script = ExtResource("11_hywmq")
+script = ExtResource("12_blykv")
 
-[node name="DeathSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife" instance=ExtResource("12_8aom2")]
+[node name="DeathSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife" instance=ExtResource("13_ql8is")]
 
 [node name="CombatSequence" type="Node" parent="BeehaveTree/WhatAmIDoingWithMyLife"]
-script = ExtResource("13_a7ko2")
+script = ExtResource("14_ag1k6")
 
-[node name="IsInCombat" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence" node_paths=PackedStringArray("aggro_radius") instance=ExtResource("14_0ay2y")]
+[node name="IsInCombat" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence" node_paths=PackedStringArray("aggro_radius") instance=ExtResource("15_0n7cl")]
 aggro_radius = NodePath("../../../../AggroRadius")
 should_leash = true
 leash_distance = 450.0
 
 [node name="AggrodSelector" type="Node" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence"]
-script = ExtResource("11_hywmq")
+script = ExtResource("12_blykv")
 
-[node name="AttackSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence/AggrodSelector" instance=ExtResource("15_xroah")]
+[node name="AttackSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence/AggrodSelector" instance=ExtResource("16_vd3dx")]
 
-[node name="PursuitSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence/AggrodSelector" instance=ExtResource("16_ro5io")]
+[node name="PursuitSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/CombatSequence/AggrodSelector" instance=ExtResource("17_55eso")]
 
-[node name="LeashSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife" instance=ExtResource("17_k4dru")]
+[node name="LeashSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife" instance=ExtResource("18_onkui")]
 
 [node name="WanderThenIdleSequence" type="Node" parent="BeehaveTree/WhatAmIDoingWithMyLife"]
-script = ExtResource("13_a7ko2")
+script = ExtResource("14_ag1k6")
 
-[node name="WanderSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/WanderThenIdleSequence" instance=ExtResource("18_3opgl")]
+[node name="WanderSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/WanderThenIdleSequence" instance=ExtResource("19_i1qwg")]
 
-[node name="IdleSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/WanderThenIdleSequence" instance=ExtResource("19_p33m3")]
+[node name="IdleSequence" parent="BeehaveTree/WhatAmIDoingWithMyLife/WanderThenIdleSequence" instance=ExtResource("20_bwiny")]
 
 [node name="Blackboard" type="Node" parent="."]
-script = ExtResource("20_vnsr5")
+script = ExtResource("21_s1s6f")
