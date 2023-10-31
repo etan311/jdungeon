@@ -967,6 +967,7 @@ position = Vector2(120, 69.9999)
 remote_path = NodePath("../../../Sprites/LeftLeg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(0, -21.3333)
 shape = SubResource("CapsuleShape2D_lk3fd")
 

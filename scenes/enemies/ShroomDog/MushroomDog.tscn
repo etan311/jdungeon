@@ -1,6 +1,7 @@
-[gd_scene load_steps=30 format=3 uid="uid://d0lebkju165th"]
+[gd_scene load_steps=31 format=3 uid="uid://d0lebkju165th"]
 
 [ext_resource type="Script" path="res://scenes/enemies/MoldedDruvar/MoldedDruvar.gd" id="1_vpa23"]
+[ext_resource type="Texture2D" uid="uid://dfvsxnqnm7cd7" path="res://assets/images/enemies/mushroomdog/example.png" id="2_17djb"]
 [ext_resource type="Texture2D" uid="uid://26iua37kqtxc" path="res://assets/images/enemies/mushroomdog/BackForeLeg.PNG" id="2_g5bmr"]
 [ext_resource type="Texture2D" uid="uid://crcsimr0m2t0q" path="res://assets/images/enemies/mushroomdog/BackHindLeg.PNG" id="3_laipr"]
 [ext_resource type="Texture2D" uid="uid://sqhr2wscv3w7" path="res://assets/images/enemies/mushroomdog/IMG_7289.PNG" id="4_7ew22"]
@@ -39,7 +40,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 200)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 140)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -63,7 +64,7 @@ tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+"values": [Vector2(-130, 215), Vector2(-130, 215), Vector2(-130, 215)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
@@ -75,7 +76,7 @@ tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, 0.0, 1.5708]
+"values": [0.0, 0.0, 0.523599]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
@@ -87,7 +88,7 @@ tracks/4/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+"values": [Vector2(80, 280), Vector2(80, 280), Vector2(80, 240)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
@@ -111,7 +112,7 @@ tracks/6/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+"values": [Vector2(300, 270), Vector2(300, 270), Vector2(300, 270)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
@@ -123,7 +124,7 @@ tracks/7/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, 0.0, 0.0]
+"values": [0.0, 0.0, -1.0472]
 }
 tracks/8/type = "value"
 tracks/8/imported = false
@@ -135,7 +136,7 @@ tracks/8/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 85.441), Vector2(-100, -27.773)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(-20, 200)]
 }
 tracks/9/type = "value"
 tracks/9/imported = false
@@ -147,7 +148,7 @@ tracks/9/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [0.0, -0.0922587, -1.37706]
+"values": [0.0, -0.0922587, 0.349066]
 }
 tracks/10/type = "value"
 tracks/10/imported = false
@@ -159,7 +160,7 @@ tracks/10/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 500)]
+"values": [Vector2(430, 230), Vector2(430, 230), Vector2(430, 230)]
 }
 tracks/11/type = "value"
 tracks/11/imported = false
@@ -183,7 +184,7 @@ tracks/12/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.6),
 "transitions": PackedFloat32Array(2, 3, 4),
 "update": 0,
-"values": [Vector2(0, 0), Vector2(50, -20), Vector2(0, 50)]
+"values": [Vector2(0, 80), Vector2(0, 0), Vector2(-20, 100)]
 }
 tracks/13/type = "value"
 tracks/13/imported = false
@@ -343,6 +344,30 @@ tracks/11/keys = {
 "transitions": PackedFloat32Array(3, 1, 1),
 "update": 0,
 "values": [0.0, 1.94575, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Skeleton/RemoteBody/RemoteLowerJaw:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Skeleton/RemoteBody/RemoteLowerJaw:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
 }
 
 [sub_resource type="Animation" id="Animation_sw53p"]
@@ -811,50 +836,57 @@ respawn_time = 20.0
 [node name="Sprites" type="Node2D" parent="."]
 scale = Vector2(0.06, 0.06)
 
-[node name="BackForeLeg" type="Sprite2D" parent="Sprites"]
+[node name="Sprite2D" type="Sprite2D" parent="Sprites"]
 visible = false
-position = Vector2(0, 200)
-rotation = 1.5708
+scale = Vector2(1, 1)
+texture = ExtResource("2_17djb")
+
+[node name="BackForeLeg" type="Sprite2D" parent="Sprites"]
+position = Vector2(-130, 355)
+rotation = 0.523599
 scale = Vector2(1, 1)
 texture = ExtResource("2_g5bmr")
+offset = Vector2(130, -215)
 
 [node name="BackHindLeg" type="Sprite2D" parent="Sprites"]
-visible = false
-position = Vector2(0, 200)
+position = Vector2(300, 410)
+rotation = -1.0472
 scale = Vector2(1, 1)
 texture = ExtResource("3_laipr")
+offset = Vector2(-300, -270)
 
 [node name="Body" type="Sprite2D" parent="Sprites"]
-position = Vector2(0, 200)
+position = Vector2(0, 140)
 scale = Vector2(1, 1)
 texture = ExtResource("4_7ew22")
 
 [node name="LowerJaw" type="Sprite2D" parent="Sprites"]
-visible = false
-position = Vector2(0, 250)
+position = Vector2(-20, 240)
 rotation = -0.872665
 scale = Vector2(1, 1)
 texture = ExtResource("5_jc6nt")
+offset = Vector2(0, -80)
+metadata/_edit_group_ = true
 
 [node name="UpperJaw" type="Sprite2D" parent="Sprites"]
-visible = false
-position = Vector2(-100, 172.227)
-rotation = -1.37706
+position = Vector2(-20, 340)
+rotation = 0.349066
 scale = Vector2(1, 1)
 texture = ExtResource("6_babro")
 
 [node name="FrontForeLeg" type="Sprite2D" parent="Sprites"]
-visible = false
-position = Vector2(0, 200)
+position = Vector2(80, 380)
 rotation = 1.309
 scale = Vector2(1, 1)
 texture = ExtResource("7_nbovi")
+offset = Vector2(-80, -280)
 
 [node name="FrontHindLeg" type="Sprite2D" parent="Sprites"]
-position = Vector2(0, 700)
+position = Vector2(430, 370)
 rotation = -1.0472
 scale = Vector2(1, 1)
 texture = ExtResource("8_nadqh")
+offset = Vector2(-430, -230)
 
 [node name="Skeleton" type="Node2D" parent="."]
 scale = Vector2(0.06, 0.06)
@@ -866,20 +898,17 @@ remote_path = NodePath("../../Sprites/Body")
 remote_path = NodePath("../../../Sprites/BackForeLeg")
 
 [node name="RemoteBackHindLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-scale = Vector2(1, 1)
 remote_path = NodePath("../../../Sprites/BackHindLeg")
 
 [node name="RemoteLowerJaw" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-position = Vector2(0, 50)
+position = Vector2(-20, 100)
 rotation = -0.872665
-scale = Vector2(1, 1)
 remote_path = NodePath("../../../Sprites/LowerJaw")
 
 [node name="RemoteUpperJaw" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
 remote_path = NodePath("../../../Sprites/UpperJaw")
 
 [node name="RemoteFrontForeLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
-scale = Vector2(1, 1)
 remote_path = NodePath("../../../Sprites/FrontForeLeg")
 
 [node name="RemoteFrontHindLeg" type="RemoteTransform2D" parent="Skeleton/RemoteBody"]
